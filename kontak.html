@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Atirah</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Matemasie&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  fontFamily: {
+                    sedan: ["Dancing Script", "cursive"],
+                    
+                  },
+                },
+              },
+            }
+          </script>
+    </head>
+        <body>
+           <header class="flex justify-between bg-cyan-500 p-4">
+            <h1 class=" text-5xl font-sedan ">Atirah</h1>
+                    <nav>
+                        <a class="border-2 p-1 mx-4 hover:bg-white" href="index.html" class ="font-extrabold">Home</a>
+                        <a class="border-2 p-1 mx-4 hover:bg-white" href="about.html" class ="font-extrabold">About</a>
+                        <a class="border-2 p-1 mx-4 hover:bg-white" href="kontak.html" class="font-extrabold">Kontak</a>
+                    </nav>
+            </h1>
+            </header>
+        <main>
+                 <h2 class="text-center text-xl text-cyan-500 font-semibold">Kontak Mee</h2>
+                  <form class="">
+                  <div class="flex flex-col md:4 flex-row gap-4">
+                  <input type="text"id="Name" placeholder="Your Name" class="border w-full rounded-md border-black">
+                  <input type="email" id="email" placeholder="Email" class="border w-full rounded-md border-black">
+                  <input type="number" id="Phone Number" placeholder="Phone Number" class="border w-full rounded-md border-black">
+                  <textarea id="message" id="Message" placeholder="Message" class="border w-full rounded md border-black"></textarea>
+                  <button type="submit" class="Kirim bg-black text-white px-0.5 border w-full rounded md border-black">Submit</button>
+                </div>
+            </form>
+        </main>
+        <div class=" fixed top-20 right-0">
+          <nav>
+              <a href="https://wa.link/0yjoju"><img class="w-8 h-9" src="png-transparent-whatsapp-logo-whatsapp-logo-computer-icons-messenger-text-grass-mobile-phones.png" alt=""></a>
+              <a href="https://www.instagram.com/atirahdendeh"><img class="w-8 h-9" src="Instagram-logo-in-a-circle---social-media-icon-PNG.png"></a>
+            </nav>
+
+        </div>
+        <footer class="flex justify-between bg-cyan-500 font-serif">
+          <p>Copyright &copy;2010 Atirah</p>
+          <div class="flex px-1">
+            <p class=""><i class="fa-brands fa-github"></i> Github</p>
+            </div>
+        </footer>
+        </body>
+
+</html>
